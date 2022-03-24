@@ -1,0 +1,21 @@
+.after-img {
+   /*padding: 20px 0 35px 0;*/
+   display: flex;
+   gap: 25px;
+   justify-content: center;
+   align-items: center;
+}
+
+.after-img .after-1,
+.after-img .after-2 {
+   display: block;
+   width: 60px;
+   background-color: #fff;
+   height: 1px;
+}
+
+.after-img.black .after-1,
+.after-img.black .after-2 {
+   color: #000;
+}
+

@@ -1,0 +1,30 @@
+
+.about-us {
+   padding: 80px 0 101px;
+   text-align: center;
+   color: #000;
+}
+
+.about-us__title {
+   text-align: center;
+   font-size: 24px;
+   line-height: 35px;
+}
+
+.about-us__text {
+   max-width: 589px;
+   margin: 0 auto;
+   line-height: 20px;
+}
+
+.about-us__text p:not(:last-child) {
+   margin-bottom: 20px;
+}
+
+.about-us .after-img.black {
+   margin: 20px 0 40px;
+}
+
+.after-img.black span {
+   background-color: black;
+} 

@@ -1,0 +1,25 @@
+
+.header {
+   height: 70px;
+   display: flex;
+   align-items: flex-end;
+   position: absolute;
+   top: 0;
+   left: 0;
+   /*width: 100%;*/
+   padding-left: 150px;
+}
+
+.nav__list {
+   display: flex;
+   gap: 40px;
+}
+
+.list__item-1 {
+   display: flex;
+   align-items: flex-end;
+}
+
+.list__item {
+   align-self: flex-end;
+}
