@@ -26,6 +26,8 @@ body {
   font-family: 'Merienda', cursive;
   font-weight: 400;
   font-size: 14px;
+  overflow: hidden;
+  overflow-y: visible;
 }
 
 

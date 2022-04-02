@@ -1,18 +1,18 @@
 import { Component } from "react";
 import AfterTitle from "../../AfterTitle/AfterTitle";
-import './Everything.css'
+import './Everything.css';
+import imgWhite from '../../../images/after-title-white.png';
 
 class Everything extends Component {
    render() {
       return (
          <section className="everything">
-            {/*<img src="main-bg.jpg" alt="Main Introduction Img" />*/}
             <div className="container">
                <div className="everything__title">
                   Everything You Love About Coffee
                </div>
                
-               <AfterTitle src="after-title-white.png" nameClass="after-img" />
+               <AfterTitle src={imgWhite} nameClass="after-img" />
 
                <div className="everything__text">
                   <div className="everything__text-1">We makes every day full of energy and taste</div>

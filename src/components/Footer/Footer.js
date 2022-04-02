@@ -1,21 +1,18 @@
 import AfterTitle from '../AfterTitle/AfterTitle';
+import Navigation from '../Navigation/Navigation';
 import '../Main/AboutUs/AboutUs.css';
 import './Footer.css';
+import footerLogo from '../../images/footer-logo.png';
+import imgBlack from '../../images/after-title-black.png';
 
 const Footer = () => {
    return (
       <footer className="footer">
          <div className="footer__inner">
-            <ul className="footer__list">
-               <li className="footer__link">
-                  <img src="footer-logo.png" alt="Footer Logo Black" />
-                  <a href="#">Coffee house</a>
-               </li>
-               <li className="footer__link"><a href="#">Our coffee</a></li>
-               <li className="footer__link"><a href="#">For your pleasure</a></li>
-            </ul>
+
+            <Navigation src={footerLogo} color="black" />
             
-            <AfterTitle src="after-title-black.png" nameClass="after-img black" />
+            <AfterTitle src={imgBlack} nameClass="after-img black" />
 
          </div>
       </footer>

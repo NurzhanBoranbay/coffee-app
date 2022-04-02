@@ -1,13 +1,14 @@
 import AfterTitle from '../../AfterTitle/AfterTitle';
 import '../Everything/Everything.css';
 import './AboutUs.css';
+import imgBlack from '../../../images/after-title-black.png';
 
 const AboutUs = () => {
    return (
       <section className="about-us">
          <div className="about-us__title">About Us</div>
          
-         <AfterTitle src="after-title-black.png" nameClass="after-img black" />
+         <AfterTitle src={imgBlack} nameClass="after-img black" />
 
          <div className="about-us__text">
             <p className="about-us__text-1">

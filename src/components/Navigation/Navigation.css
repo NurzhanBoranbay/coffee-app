@@ -1,0 +1,30 @@
+
+.nav__list {
+   display: flex;
+   gap: 40px;
+}
+
+.list__item-1 {
+   display: flex;
+   align-items: flex-end;
+}
+
+.list__item {
+   align-self: flex-end;
+}
+
+.nav__list.white .list__item a {
+   color: #fff;
+}
+
+.nav__list.white .list__item a:hover {
+   color: gold;
+}
+
+.nav__list.black .list__item a {
+   color: #000;
+}
+
+.nav__list.black .list__item a:hover {
+   opacity: .5;
+}
